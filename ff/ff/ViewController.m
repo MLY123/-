@@ -24,7 +24,7 @@
      // Do any additional setup after loading the view, typically from a nib.
 }
 -(NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView{
-     return 2;
+     return 3;
 }
 -(NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section{
      if (section == 0) {
@@ -60,7 +60,7 @@
      if (indexPath.section == 0) {
           return CGSizeMake(0, 0);
      }
-     return CGSizeMake(100, 100);
+     return CGSizeMake(200, 200);
 
 }
 -(CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout referenceSizeForHeaderInSection:(NSInteger)section{
